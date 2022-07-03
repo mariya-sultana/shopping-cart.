@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+History
+{% endblock %}
+
+{% block main %}
+
+<table style="width:80%;text-align:center;" align="center" class="table table-striped">
+
+    <tr>
+        <th>Prduct Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Total</th>
+    </tr>
+
+    {% for transaction in transactions %}
+    <tr>
+        <td>{{ transaction["pname"] }}</td>
+        <td>{{ transaction["total_BUY"] }}</td>
+        <td>{{ transaction["total_price"] }}</td>
+        <td>{{ transaction["total_cost"] }}</td>
+        <!-- <td>{{ transaction["Toal"] }}</td> -->
+    </tr>
+    {% endfor%}
+
+
+</table>
+
+{% endblock %}

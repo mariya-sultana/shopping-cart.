@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block main %}
+<table class="table table-striped" style="width:80%;text-align:center;" align="center">
+  <tr>
+    <th>Current Cash</th>
+    <th>Quantity</th>
+    <th>Total Spent Money : </th>
+  </tr>
+
+  <td>{{ name[0]["cash"] }}</td>
+
+
+  <td>X {{quantity}}</td>
+
+  <td>{{count}}</td>
+</table>
+{% endblock %}
