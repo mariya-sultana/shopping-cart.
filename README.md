@@ -9,7 +9,8 @@ Implement a web application using html, CSS, JavaScript, and Python Flask via wh
 
 ## Product page
 ![image](https://user-images.githubusercontent.com/67579703/177048175-2228cf3b-f87a-49bc-910b-c07c727a3a60.png)
-![image](https://user-images.githubusercontent.com/67579703/177048209-d2025d74-d44e-4e98-9e96-a4fa3c21a634.png)
+![image](https://user-images.githubusercontent.com/67579703/177048772-92b50a3d-bea7-4181-8c74-4caa3b208c22.png)
+
 
 
 
